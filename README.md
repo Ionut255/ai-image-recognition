@@ -7,9 +7,32 @@ powered by Deep Learning and Computer Vision.
 Built with Python, Streamlit, PyTorch, and Hugging Face
 Transformers.
 
+
 ## 🚀 Live Demo
 
-The deployed application link will be added here.
+Try VisionAI online:
+
+[Launch VisionAI](https://ai-image-recognition-3cj3rvwyawptnrjfnfrmyr.streamlit.app)
+
+Upload an image, explore AI predictions, and
+download the classification results as JSON.
+
+
+## 📸 Application Preview
+
+### 1. Main Dashboard
+
+Upload an image and explore the VisionAI interface.
+
+![VisionAI Dashboard](screenshots/visionai-dashboard.png)
+
+### 2. AI Classification Results
+
+View the top five predictions, confidence scores,
+interactive charts, and JSON export options.
+
+![VisionAI Classification Results](screenshots/visionai-results.png)
+
 
 ## 📌 Overview
 
@@ -52,9 +75,10 @@ fine-tuned on ImageNet-1k.
 
 It classifies images into 1,000 ImageNet categories.
 
-This project uses transfer learning through a
-pretrained model rather than training a new
-model from scratch.
+
+This application performs inference using a pretrained
+Vision Transformer model without additional fine-tuning.
+
 
 ## 🏗️ Project Structure
 
