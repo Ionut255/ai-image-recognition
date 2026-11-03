@@ -25,42 +25,34 @@ st.set_page_config(
 # CUSTOM STYLING
 # -----------------------------
 
-st.markdown(
-    """
-    <style>
-    .hero {
-        background: linear-gradient(
-            120deg, #172554, #4338ca
-        );
-        padding: 32px;
-        border-radius: 16px;
-        color: white;
-        margin-bottom: 25px;
-    }
 
-    .hero h1 {
-        color: white;
-        font-size: 38px;
-        margin-bottom: 8px;
-    }
+st.html("""
+<style>
+.hero {
+    background: linear-gradient(120deg, #172554, #4338ca);
+    padding: 32px;
+    border-radius: 16px;
+    color: white;
+    margin-bottom: 25px;
+}
+.hero h1 {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+.hero p {
+    color: #e0e7ff;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+</style>
 
-    .hero p {
-        color: #e0e7ff;
-        font-size: 17px;
-        margin-bottom: 0;
-    }
-    </style>
+<div class="hero">
+    <h1>🧠 VisionAI</h1>
+    <p>Intelligent Image Recognition Powered by Deep Learning</p>
+</div>
+""")
 
-    <div class="hero">
-        <h1>🧠 VisionAI</h1>
-        <p>
-            Intelligent Image Recognition
-            Powered by Deep Learning
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 
 
 # -----------------------------
